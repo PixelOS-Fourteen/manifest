@@ -5,10 +5,6 @@
            fetch="https://github.com/PixelOS-Fourteen"
            revision="refs/heads/fourteen" />
 
-  <remote  name="PixelOS-Gitlab"
-           fetch="https://gitlab.com/basamaryan"
-           revision="refs/heads/fourteen" />
-
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
 
@@ -62,5 +58,5 @@
   <!-- Vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="PixelOS" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
-  <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="PixelOS-Gitlab" />
+  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="PixelOS"/>
 </manifest>

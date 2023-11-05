@@ -17,6 +17,10 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-13.1" />
 
+  <remote  name="AOSPA"
+           fetch="https://gitlab.com/ThankYouMario"
+           revision="uvite" />
+
   <!-- Device -->
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" remote="LineageOS" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="LineageOS" />
@@ -242,6 +246,9 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,kailua-vendor" remote="LineageOS" />
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,kailua-vendor" remote="LineageOS" />
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,kailua-vendor" remote="LineageOS" />
+
+  <!-- Vendor (GMS) -->
+  <project path="vendor/google/gms" name="android_vendor_google_gms" clone-depth="1" remote="AOSPA" />
 
   <!-- NXP additions -->
   <project path="vendor/nxp/nfc" name="ArrowOS/android_vendor_nxp_nfc" remote="ArrowOS" />
