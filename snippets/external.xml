@@ -31,13 +31,13 @@
   <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen,pdk-gs-arm" remote="LineageOS" />
   <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="LineageOS" />
   <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="LineageOS" />
-  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="LineageOS" revision="refs/changes/75/368275/1" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="LineageOS" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" groups="pdk" remote="LineageOS" />
-  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="LineageOS" revision="refs/changes/80/368280/1" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="LineageOS" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="LineageOS" />
   <project path="external/libnl" name="LineageOS/android_external_libnl" groups="pdk" remote="LineageOS" />
   <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" remote="LineageOS" />
-  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="LineageOS" revision="refs/changes/85/368285/1" />
+  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="LineageOS" />
   <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" groups="pdk" remote="LineageOS" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="LineageOS" />
   <project path="external/webp" name="LineageOS/android_external_webp" groups="pdk,qcom_msm8x26" remote="LineageOS" />
@@ -85,9 +85,9 @@
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="LineageOS" revision="refs/changes/34/368734/1" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="LineageOS" revision="refs/changes/35/368735/1" />
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="LineageOS" revision="refs/changes/36/368736/1" />
-  <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" remote="LineageOS" revision="refs/changes/37/368737/1" />
+  <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" remote="LineageOS" />
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="LineageOS" revision="refs/changes/39/368739/1" />
-  <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="LineageOS" revision="refs/changes/40/368740/1" />
+  <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="LineageOS" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="LineageOS" revision="refs/changes/44/368744/1" />
   <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" groups="pdk" remote="LineageOS" revision="refs/changes/52/368752/1" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="LineageOS" revision="refs/changes/73/368773/2" />
@@ -169,7 +169,7 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-21.0-caf-sdm845" remote="LineageOS" />
   <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sdm845" remote="LineageOS" />
   <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm845" revision="lineage-21.0-caf-sdm845" remote="LineageOS" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-21.0-caf-sm8150" remote="LineageOS" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" revision="refs/changes/66/372766/1" remote="LineageOS" />
   <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8150" remote="LineageOS" />
   <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-21.0-caf-sm8150" remote="LineageOS" />
   <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,kona" revision="lineage-21.0-caf-sm8250" remote="LineageOS" />
