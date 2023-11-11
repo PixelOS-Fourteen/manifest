@@ -6,7 +6,7 @@
            revision="refs/heads/fourteen" />
 
   <remote  name="PixelOS-Gitlab"
-           fetch="https://gitlab.com/basamaryan"
+           fetch="https://gitlab.com/PixelOS-AOSP"
            revision="refs/heads/fourteen" />
 
   <!-- Rootdir -->
