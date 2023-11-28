@@ -91,7 +91,6 @@
   <!-- Begin Extras -->
 
   <!-- Device -->
-  <project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="ArrowOS" revision="arrow-14.0" />
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" remote="LineageOS" />
   <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-21.0-legacy-um" remote="LineageOS" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-21.0-legacy-um" remote="LineageOS" />

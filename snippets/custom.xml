@@ -56,6 +56,7 @@
 
   <!-- Device -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="PixelOS" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="PixelOS" />
 
   <!-- Hardware -->
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="PixelOS" />
