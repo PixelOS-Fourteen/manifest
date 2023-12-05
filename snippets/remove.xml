@@ -10,6 +10,7 @@
   <!-- Build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build/bazel" />
 
   <!-- Device -->
   <remove-project name="device/generic/common" />
@@ -128,4 +129,7 @@
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+
+  <!-- Toolchain -->
+  <remove-project name="toolchain/pgo-profiles" />
 </manifest>

@@ -16,6 +16,10 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="PixelOS" />
 
   <!-- Build -->
+  <project path="build/bazel" name="build_bazel" remote="PixelOS" >
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
   <project path="build/make" name="build" groups="pdk" remote="PixelOS">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -51,6 +55,9 @@
   <project path="system/core" name="system_core" groups="pdk" remote="PixelOS" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="PixelOS" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="PixelOS" />
+
+  <!-- Toolchain -->
+  <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="PixelOS" />
 
   <!-- Begin Extras -->
 
