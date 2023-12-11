@@ -3,7 +3,7 @@
 
   <remote  name="PixelOS"
            fetch="https://github.com/PixelOS-Fourteen"
-           revision="refs/heads/fourteen" />
+           revision="refs/heads/fourteen-qpr1" />
 
   <remote  name="PixelOS-Gitlab"
            fetch="https://gitlab.com/PixelOS-AOSP"
