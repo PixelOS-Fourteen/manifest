@@ -36,7 +36,7 @@
   <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" groups="pdk" remote="LineageOS" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="LineageOS" />
   <project path="external/webp" name="LineageOS/android_external_webp" groups="pdk,qcom_msm8x26" remote="LineageOS" />
-  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" revision="refs/changes/95/368295/2" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" />
   <project path="external/zstd" name="LineageOS/android_external_zstd" groups="pdk" remote="LineageOS" />
 
   <!-- Frameworks -->
@@ -69,7 +69,7 @@
   <!-- Packages -->
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="LineageOS" revision="refs/changes/72/368672/4" />
   <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" revision="refs/changes/82/368682/2" />
-  <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" revision="refs/changes/85/368685/1" />
+  <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" revision="refs/changes/85/368685/2" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" revision="refs/changes/07/368707/3" />
 
   <!-- Prebuilts -->
