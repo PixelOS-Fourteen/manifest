@@ -12,6 +12,7 @@
   <!-- Rootdir -->
   <project path="art" name="art" groups="pdk" remote="PixelOS" />
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
+  <project path="libcore" name="android_libcore" groups="pdk" remote="PixelOS" />
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="PixelOS" />
@@ -38,6 +39,7 @@
   <!-- External -->
   <project path="external/boringssl" name="external_boringssl" groups="pdk" remote="PixelOS" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="PixelOS" />
+  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="PixelOS" />
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="PixelOS" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" groups="pdk" remote="PixelOS" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="PixelOS" />
