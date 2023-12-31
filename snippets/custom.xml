@@ -37,6 +37,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="PixelOS" />
   <project path="external/boringssl" name="external_boringssl" groups="pdk" remote="PixelOS" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="PixelOS" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="PixelOS" />
@@ -62,6 +63,7 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="PixelOS" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="PixelOS" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="PixelOS" />
   <project path="system/server_configurable_flags" name="system_server_configurable_flags" remote="PixelOS" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="PixelOS" />
