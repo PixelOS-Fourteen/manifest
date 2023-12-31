@@ -43,7 +43,9 @@
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="PixelOS" />
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="PixelOS" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" groups="pdk" remote="PixelOS" />
+  <project path="external/skia" name="external_skia" groups="pdk" remote="PixelOS" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="PixelOS" />
+  <project path="external/zlib" name="external_zlib-ng" groups="pdk" remote="PixelOS" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="PixelOS" />
@@ -64,6 +66,8 @@
   <!-- System -->
   <project path="system/core" name="system_core" groups="pdk" remote="PixelOS" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="PixelOS" />
+  <project path="system/linkerconfig" name="system_linkerconfig" groups="pdk" remote="PixelOS" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" groups="pdk" remote="PixelOS" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="PixelOS" />
   <project path="system/server_configurable_flags" name="system_server_configurable_flags" remote="PixelOS" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="PixelOS" />

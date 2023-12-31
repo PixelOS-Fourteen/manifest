@@ -79,10 +79,12 @@
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/rust/crates/ring" />
   <remove-project name="platform/external/setupcompat" />
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/zstd" />
 
   <!-- Frameworks -->
@@ -136,8 +138,10 @@
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/libziparchive" />
+  <remove-project name="platform/system/linkerconfig"/>
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/memory/lmkd"/>
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/server_configurable_flags" />
